@@ -5,7 +5,6 @@ __pycache__
 build/
 dist/ 
 docs/
-tools/
 
 # Distribution / packaging 
 .Python build/ 
@@ -21,6 +20,8 @@ wheels/
 # Unit test / coverage reports 
 .cache 
 .pytest_cache/ 
+**/*.gbr
+examples/gerbers/
 
 # PyBuilder
 target/
